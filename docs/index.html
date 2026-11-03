@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo Timeline Studio — tell your family's story on a timeline</title>
+<meta name="description" content="Photo Timeline Studio turns your photos, events and memories into a beautiful, printable timeline. Free, offline, private — runs on your own PC.">
+<style>
+  :root{ --navy:#213B4A; --ink:#2b3440; --paper:#f7f4ec; --card:#ffffff; --line:#e3ddcc; --accent:#1d6f5c; --support:#A54D3F; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:"Segoe UI",system-ui,-apple-system,Arial,sans-serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  .wrap{ max-width:920px; margin:0 auto; padding:0 22px; }
+  header{ background:var(--navy); color:#fff; }
+  header .wrap{ display:flex; align-items:center; gap:10px; padding-top:14px; padding-bottom:14px; }
+  .mark{ width:34px; height:34px; border-radius:8px; background:#fff; display:flex; align-items:center; justify-content:center; }
+  .mark svg{ width:22px; height:22px; }
+  header h1{ font-size:18px; font-weight:600; letter-spacing:.2px; }
+  .hero{ text-align:center; padding:64px 0 12px; }
+  .hero h2{ font-size:clamp(30px,5vw,44px); font-weight:700; color:var(--navy); line-height:1.15; max-width:16em; margin:0 auto 16px; }
+  .hero p.lead{ font-size:clamp(16px,2.4vw,19px); max-width:36em; margin:0 auto 30px; color:#46535f; }
+  .btn{ display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-size:19px; font-weight:600; padding:16px 34px; border-radius:12px; box-shadow:0 4px 14px rgba(29,111,92,.28); }
+  .btn:hover{ background:#175e4d; }
+  .btn small{ display:block; font-size:13px; font-weight:400; opacity:.9; margin-top:3px; }
+  .chips{ margin-top:16px; font-size:14px; color:#5a6570; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  .shot{ margin:44px auto 8px; max-width:100%; }
+  .shot img{ width:100%; border-radius:14px; box-shadow:0 10px 34px rgba(33,59,74,.18); border:1px solid var(--line); display:block; }
+  .shot figcaption{ font-size:13px; color:#8a7f66; text-align:center; margin-top:10px; }
+  section.pad{ padding:58px 0 10px; }
+  h3{ font-size:26px; color:var(--navy); margin-bottom:26px; text-align:center; }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
+  .card{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:22px 20px; }
+  .card b{ display:block; color:var(--navy); font-size:17px; margin-bottom:7px; }
+  .card p{ font-size:15px; color:#46535f; }
+  .privacy{ background:var(--navy); color:#e9e4d6; border-radius:16px; padding:34px 30px; margin-top:44px; }
+  .privacy h4{ font-size:22px; margin-bottom:10px; }
+  .privacy p{ font-size:15.5px; max-width:56em; }
+  .support{ text-align:center; padding:52px 0 8px; }
+  .support p{ font-size:16px; max-width:34em; margin:0 auto 22px; color:#46535f; }
+  .support a.kofi{ display:inline-block; background:var(--support); color:#fff; text-decoration:none; font-weight:600; padding:13px 26px; border-radius:10px; font-size:16px; }
+  .support a.kofi:hover{ background:#8f4134; }
+  .support .email{ margin-top:18px; font-size:14.5px; }
+  .support .email a{ color:var(--navy); }
+  footer{ text-align:center; padding:42px 0 34px; font-size:13.5px; color:#8a7f66; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#213B4A" stroke-width="2"/><circle cx="9" cy="11" r="2.4" fill="#213B4A"/><path d="M6 17l4-4 3 3 5-6" stroke="#213B4A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+    <h1>Photo Timeline Studio</h1>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="hero">
+    <h2>Tell your family's story on a timeline</h2>
+    <p class="lead">Turn your photos, events and memories into a beautiful, printable timeline — made entirely on your own computer, with nothing uploaded.</p>
+    <a class="btn" href="https://github.com/rainenr/photo-timeline-studio/releases/latest/download/Photo.Timeline.Studio.Setup.exe">⬇ Download for Windows<small>Free · always the latest version</small></a>
+    <div class="chips"><span>Windows 10 &amp; 11</span><span>Works offline</span><span>No account, no tracking</span></div>
+  </div>
+
+  <figure class="shot">
+    <img src="hero.png" alt="Photo Timeline Studio showing a family timeline with photos, events and time bars on the canvas">
+    <figcaption>Photos, key events and life-stage bars on one editable timeline.</figcaption>
+  </figure>
+
+  <section class="pad">
+    <h3>What you can do with it</h3>
+    <div class="grid">
+      <div class="card"><b>Photos &amp; events</b><p>Add pictures, key moments and life stages — places lived, career, milestones — and arrange them by drag and drop.</p></div>
+      <div class="card"><b>Print at any size</b><p>Check a draft print on plain paper, then print at full size or save as a PDF for the print shop.</p></div>
+      <div class="card"><b>Dates your way</b><p>Type dates the way you think of them, display them the way you like, in UK or US English.</p></div>
+    </div>
+  </section>
+
+  <div class="privacy">
+    <h4>Private by design</h4>
+    <p>Photo Timeline Studio runs offline on your own computer. Your pictures, projects and notes never leave your machine — there is no cloud, no account, and nothing is uploaded when you work or when you update.</p>
+  </div>
+
+  <div class="support">
+    <h3>Free, with optional support</h3>
+    <p>Photo Timeline Studio is free to download and use — no subscription, and updates are free too. If it's useful to you, you're welcome to buy me a coffee.</p>
+    <a class="kofi" href="https://ko-fi.com/phototimelinestudio" target="_blank" rel="noopener">☕ Support on Ko-fi</a>
+    <p class="email">Found a problem or have an idea? <a href="mailto:photo.timeline@girtbydirt.com">photo.timeline@girtbydirt.com</a></p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Photo Timeline Studio · © 2026 Neil Raine · All rights reserved</div>
+</footer>
+</body>
+</html>
