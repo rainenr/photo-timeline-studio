@@ -1,27 +1,32 @@
 # Photo Timeline Studio
 
-Bring your family and project photos to life on an editable, printable timeline. **Photo Timeline Studio** runs entirely offline on your own PC: your pictures and projects never leave your machine.
+**Bring your family and project photos to life on a beautiful, printable timeline.** The app runs entirely on your own computer — offline, private, and everything stays yours.
 
-## Features
+## Download
 
-- **Editable timeline** — events, photos, time-bar ranges, markers and canvas layout, all arrangeable by drag and drop
-- **Printing** — *Draft* (multi-page, plain paper) and *Final* (full-size PDF)
-- **Dates** — a choice of on-screen date display, and your preferred typing format
-- **Localised** — UK or US English, picked at install and remembered even across reinstalls
-- **Private** — a one-off purchase with no subscription; updates in-app are free
+**[⬇ Download the latest version](https://github.com/rainenr/photo-timeline-studio/releases/latest/download/Photo.Timeline.Studio.Setup.exe)**
 
-## Install
+The download is a single installer file. Run it and Photo Timeline Studio installs — or updates — in place, keeping your projects and settings.
 
-Download the latest **Timeline-Studio-Installer.zip** from the *Releases* section, extract it, and run `Setup.exe`.
+## What you can do with it
 
-- It installs (or updates) **in place**, keeping your existing projects and settings.
-- Every bundled file has a verified checksum in the release's `SHA256SUMS.txt`, and the installer refuses tampered or over-written files.
+- **Tell a story** — add photos, key events, and life-stage time bars (like "Places lived" or "Career") and arrange them on one timeline.
+- **Print it beautifully** — check a draft print on plain paper, then print at full size or save as a PDF.
+- **It's private** — the app works offline and never uploads your pictures or projects.
+- **Dates that suit you** — type dates your way, display them your way, in UK or US English.
 
-## Updating
+## Free, with optional support
 
-Open **Options → Check for updates** in the app to see whether a newer version is available. That opt-in check makes one request to GitHub; nothing is sent automatically.
+Photo Timeline Studio is free to download and use — no subscription, no account, and updates are free too. If it's useful to you, you're welcome to buy me a coffee: **[Support on Ko-fi](https://ko-fi.com/phototimelinestudio)**
 
-## Privacy & licensing
+## Updates
 
-- The app works offline and never uploads your projects or pictures.
-- This is a **one-off purchase** product. It is not open-source and all rights are reserved; see the Help → *About* topic in the app.
+In the app, choose **Updates** on the menu bar, then **Check for updates**. That is the only time the app talks to the internet — a single request, only when you ask.
+
+## Help
+
+The app's Help menu explains everything. For problems or ideas, email **photo.timeline@girtbydirt.com**.
+
+## Licensing
+
+This is free software to use, but it is **not open-source**; all rights are reserved. See Help → About in the app.
