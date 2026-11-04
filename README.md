@@ -2,7 +2,7 @@
 
 **Bring your family and project photos to life on a beautiful, printable timeline.** The app runs entirely on your own computer — offline, private, and everything stays yours.
 
-**[🌐 Visit the website](https://rainenr.github.io/photo-timeline-studio/)** — a friendlier way to see the app and download it.
+**[🌐 Visit the website](https://phototimelinestudio.com/)** — a friendlier way to see the app and download it.
 
 ## Download
 
