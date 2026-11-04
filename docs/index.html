@@ -26,6 +26,12 @@
   .shot{ margin:44px auto 8px; max-width:100%; }
   .shot img{ width:100%; border-radius:14px; box-shadow:0 10px 34px rgba(33,59,74,.18); border:1px solid var(--line); display:block; }
   .shot figcaption{ font-size:13px; color:#8a7f66; text-align:center; margin-top:10px; }
+  .ltbox{ position:fixed; inset:0; background:rgba(10,16,20,.92); display:none; align-items:center; justify-content:center; z-index:50; padding:18px; }
+  .ltbox.visible{ display:flex; }
+  .ltbox img{ max-width:100%; max-height:100%; border-radius:6px; box-shadow:0 12px 40px rgba(0,0,0,.55); }
+  .ltbox .ltbtn{ position:fixed; top:14px; right:18px; background:#fff; border:none; border-radius:50%; width:42px; height:42px; font-size:24px; line-height:1; cursor:pointer; color:#213B4A; }
+  .shot .down{ display:flex; gap:16px; justify-content:center; flex-wrap:wrap; margin-top:12px; font-size:13px; }
+  .shot .down a{ color:var(--navy); text-decoration:none; border-bottom:1px solid #c8c0ab; padding-bottom:1px; }
   section.pad{ padding:58px 0 10px; }
   h3{ font-size:26px; color:var(--navy); margin-bottom:26px; text-align:center; }
   .grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
@@ -61,8 +67,11 @@
   </div>
 
   <figure class="shot">
-    <img src="hero.png" alt="Photo Timeline Studio showing a family timeline with photos, events and time bars on the canvas">
-    <figcaption>Photos, key events and life-stage bars on one editable timeline.</figcaption>
+    <a href="javascript:void 0" onclick="document.getElementById('ltbox').classList.add('visible')" aria-label="View the Coventry Family example timeline full screen" title="Click to view full screen">
+      <img src="coventry-timeline.png" alt="The Coventry Family, a worked example timeline showing photos, key events and life-stage bars, built in Photo Timeline Studio">
+    </a>
+    <figcaption>The Coventry Family &mdash; a fully worked example timeline. Click to view full screen.</figcaption>
+    <div class="down"><a href="coventry-timeline-full.png" download>Download full-size PNG</a></div>
   </figure>
 
   <section class="pad">
@@ -81,10 +90,11 @@
 
   <div class="support">
     <h3>Free, with optional support</h3>
-    <p>Photo Timeline Studio is free to download and use — no subscription, and updates are free too. If it's useful to you, you're welcome to buy me a coffee.</p>
+    <p>Photo Timeline Studio is free to download and use — no subscription, and updates are free too. If it's useful to you, you're welcome to buy me a coffee or 5 &mdash; this app developer is powered by caffeine.</p>
     <a class="kofi" href="https://ko-fi.com/phototimelinestudio" target="_blank" rel="noopener">☕ Support on Ko-fi</a>
     <p class="email">Found a problem or have an idea? <a href="mailto:photo.timeline@girtbydirt.com">photo.timeline@girtbydirt.com</a></p>
   </div>
+<div id="ltbox" class="ltbox" onclick="this.classList.remove('visible')"><img src="coventry-timeline-full.png" alt="The Coventry Family example timeline (full screen)"><button class="ltbtn" onclick="event.stopPropagation();this.closest('#ltbox').classList.remove('visible')" aria-label="Close">&times;</button></div>
 </main>
 
 <footer>
